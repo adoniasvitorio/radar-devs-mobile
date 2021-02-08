@@ -44,7 +44,6 @@ function Main({ navigation }) {
                 techs: 'ReactJS'
             }
         });
-        console.log(response.data);
         setDevs(response.data);
     }
 
